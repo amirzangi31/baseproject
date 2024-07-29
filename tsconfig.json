@@ -19,7 +19,27 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@root/*": ["./*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/components/*"],
+      "@template/*": ["./src/components/template/*"],
+      "@modules/*": ["./src/components/modules/*"],
+      "@layouts/*": ["./src/components/layouts/*"],
+      "@elements/*": ["./src/components/elements/*"],
+      "@icons/*": ["./src/components/icons/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@types/*": ["./src/types/*"],
+      "@helper/*": ["./src/helper/*"],
+      "@data/*": ["./src/data/*"],
+      "@messages/*": ["./src/messages/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@providers/*": ["./src/providers/*"],
+      "@context/*": ["./src/context/*"],
+      "@config/*": ["./src/config/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
